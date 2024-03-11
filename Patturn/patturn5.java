@@ -1,5 +1,12 @@
 package Patturn;
 
+// this patturn look like .. 
+// *
+// **
+// ***
+// ****
+// *****
+
 public class patturn5 {
     public static void main(String[] args) {
 
