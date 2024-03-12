@@ -1,8 +1,5 @@
 package Class_Object;
 
-public
-package class_object;
-
 import java.util.Scanner;
 
 class Account {
@@ -73,6 +70,4 @@ public class BankData {
         }
         scanner.close();
     }
-}{
-
 }
