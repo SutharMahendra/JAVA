@@ -1,3 +1,6 @@
+
+import java.util.Scanner;
+
 public class LCM {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -10,8 +13,8 @@ public class LCM {
         } else {
             LCM = n2;
         }
-        for (int i = LCM; i <= n1 * n2; i++) {
-            if (i % n1 == 0 && i % n2 == 0) {
+        for (int i = LCM; i <= n1 * n2; i = i * LCM) {
+            if (i % n1 == 0) {
                 LCM = i;
                 break;
             }
